@@ -5,12 +5,12 @@ module "workload01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "xxxxxxxxxxx"
+    AccountEmail = "francesco.spinelli+work1@nttdata.com"
     AccountName  = "workload01"
     # Syntax for top-level OU
     # ManagedOrganizationalUnit = "Security"
     # Syntax for nested OU
-    ManagedOrganizationalUnit = "Workload-dev (ou-xxxxxxxxx)"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail     = "do-not-use@example.com"
     SSOUserFirstName = "do-not-use"
     SSOUserLastName  = "do-not-use"
