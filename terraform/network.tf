@@ -5,12 +5,12 @@ module "network" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "xxxxxxxxxx"
+    AccountEmail = "francesco.spinelli+net@nttdata.com"
     AccountName  = "network"
     # Syntax for top-level OU
     # ManagedOrganizationalUnit = "Foundation"
     # Syntax for nested OU
-    ManagedOrganizationalUnit = "Infrastructure (ou-xxxxxxxx)"
+    ManagedOrganizationalUnit = "Foundational"
     SSOUserEmail              = "do-not-use@example.com"
     SSOUserFirstName          = "do-not-use"
     SSOUserLastName           = "do-not-use"
