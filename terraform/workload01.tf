@@ -39,5 +39,5 @@ module "workload01" {
     })
   }
 
-  account_customizations_name = "workload"
+  account_customizations_name = "workload01"
 }
