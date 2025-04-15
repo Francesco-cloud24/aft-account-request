@@ -5,8 +5,8 @@ module "management" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "xxxxxxxx"
-    AccountName  = "management"
+    AccountEmail = "francesco.spinelli@nttdata.com"
+    AccountName  = "aft-bootcamp-master"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "root"
     # Syntax for nested OU
